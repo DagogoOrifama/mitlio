@@ -6,3 +6,38 @@ body{
   opacity: 0.8;
   border-bottom: 2px solid #e84118;
 }
+
+#home{
+  background: url(../img/home.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 700px;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7)
+}
+.home-content{
+  padding-top: 150px;
+}
+#home .fa-check{
+  color: #e84118;
+  background:#fff;
+  padding: 4px;
+  border-radius: 4px;
+}
+#home .cd-form{
+  opacity: 0.8;
+}
+#explore-content .fa-check{
+  color: #fff;
+  background: #444;
+  padding: 4px;
+  border-radius: 4px;
+}
