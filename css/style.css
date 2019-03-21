@@ -26,7 +26,8 @@ body{
 .home-content{
   padding-top: 150px;
 }
-#home .fa-check{
+#home .fa-check,
+#create-content .fa-check{
   color: #e84118;
   background:#fff;
   padding: 4px;
@@ -35,9 +36,13 @@ body{
 #home .cd-form{
   opacity: 0.8;
 }
-#explore-content .fa-check{
+#explore-content .fa-check,
+#share-content .fa-check{
   color: #fff;
   background: #444;
   padding: 4px;
   border-radius: 4px;
+}
+#share-content{
+  border-bottom: 2px solid #e84118;
 }

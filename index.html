@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Theme | Mitlio</title>
 </head>
-<body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+<body data-spy"scroll" data-target="#navigation" >
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" id="navigation">
     <a href="#home" class="navbar-brand">Mitlio</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
       <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@
   </nav>
 
 <!-- HOME SECTION -->
-  <section id="home">
+  <section  id="home">
     <div class="overlay">
     <div class="container home-content">
       <div class="row">
@@ -113,7 +113,7 @@
 
 
   <!-- EXPLORE SECTION -->
-  <section id="explore-head">
+  <section id="explore">
     <div class="container">
       <div class="row">
         <div class="col text-center py-5">
@@ -128,11 +128,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="display-4">Explore & Learn More</h2>
+          <h3>Explore & Learn More</h3>
           <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing elit. Quo debitis voluptas ut adipisci, nisi odit!</p>
           <div class="d-flex">
             <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-3x"></i>
+              <i class="fas fa-check fa-2x"></i>
             </div>
             <div class="p-4 align-self-end">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquam impedit eaque necessitatibus, assumenda harum?
@@ -140,23 +140,148 @@
           </div>
           <div class="d-flex">
             <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-3x"></i>
+              <i class="fas fa-check fa-2x"></i>
             </div>
             <div class="p-4 align-self-end">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquam impedit eaque necessitatibus, assumenda harum?
             </div>
           </div>
         </div>
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <img src="img/explore.jpg" alt="" class="img-fluid rounded-circle">
+        </div>
       </div>
     </div>
   </section>
+
+
+    <!-- CREATE SECTION -->
+    <section id="create" class="bg-danger">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h2 class="display-4">Create</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolorem.</p>
+            <a href="#" class="btn btn-lg btn-outline-light ">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="create-content" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-2">
+            <h3>Create Value with Passion</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing elit. Quo debitis voluptas ut adipisci, nisi odit!</p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquam impedit eaque necessitatibus, assumenda harum?
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquam impedit eaque necessitatibus, assumenda harum?
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <img src="img/create.jpg" alt="" class="img-fluid rounded-circle">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SHARE SECTION -->
+    <section id="share" class="bg-danger">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h2 class="display-4">Share</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolorem.</p>
+            <a href="#" class="btn btn-lg btn-outline-light ">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="share-content" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Share Your Creations</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing elit. Quo debitis voluptas ut adipisci, nisi odit!</p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquam impedit eaque necessitatibus, assumenda harum?
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquam impedit eaque necessitatibus, assumenda harum?
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="img/share.jpg" alt="" class="img-fluid rounded-circle">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION  -->
+    <section id="contact" class="py-5 bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form>
+              <h3 class="text-muted ">Tell us About Your Inventions</h3>
+              <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, ea.</p>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" placeholder="Enter full name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter Email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="message">Messgae</label>
+                <textarea name="name" class="form-control" placeholder="Enter your message"></textarea>
+              </div>
+              <input type="submit" value="Send Message" class="btn btn-block btn-outline-danger">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <footer id="main-footer" class="bg-dark py-3">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          Copyright &copy; <span id="year"></span> Mitlio
+        </div>
+      </div>
+    </div>
+  </footer>
 <script
 src="http://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src=""></script>
+<script src="js/script.js"></script>
 </body>
 </html>
